@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YUI數位行銷顧問 | 掌握數據與自建官網自主權</title>
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  <!-- 1. 導覽列 -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">YUIMarketing</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">首頁</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">核心服務</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">行銷問答</a></li>
+          <li class="nav-item"><a class="nav-link" href="#location">服務據點</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">專案諮詢</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 2. 輪播圖 -->
+  <div id="home" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#home" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#home" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#home" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1400" class="d-block w-100" alt="自建網站自主權">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>掌握數位資產自主權</h2>
+          <p>不再受限於社群演算法，為企業自建官網掌握一手訪客數據。</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1400" class="d-block w-100" alt="精準標籤與數據分析">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>GTM 與 GA4 數據精準佈局</h2>
+          <p>透過行為標籤追蹤，串聯 AI 演算法達成最佳廣告投放投報率。</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1400" class="d-block w-100" alt="SEO 自然曝光成長">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>全方位 SEO 與 AI 搜尋最佳化</h2>
+          <p>將站外精準曝光轉化為站內有效互動與實質訂單轉換。</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#home" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#home" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- 3. 卡片區塊 (Cards - 符合手機 col-12、平板 col-md-6、桌機 col-lg-4) -->
+  <section id="services" class="bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">核心行銷服務方案</h2>
+        <p class="text-muted">曝光（觸及） ➔ 點擊進站流量 ➔ 訂單與客戶名單轉換</p>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=600" class="card-img-top" alt="自建官網切版">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">自建高轉換響應式官網</h5>
+              <p class="card-text text-muted">採用 Bootstrap 5 現代框架切版，兼顧行動裝置流暢體驗與品牌獨立性，擺脫第三方社群平台封鎖風險。</p>
+              <button type="button" class="btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#serviceModal1">
+                查看案例細節
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=600" class="card-img-top" alt="GTM 標籤追蹤">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">GTM / GA4 標籤追蹤架構</h5>
+              <p class="card-text text-muted">埋設事件標籤追蹤頁面滾動、按鈕點擊與名單填寫，收集站內深度數據，提供行銷決策分析依據。</p>
+              <button type="button" class="btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#serviceModal2">
+                查看技術規格
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=600" class="card-img-top" alt="AI 廣告與 SEO">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">Google & Meta 精準廣告投放</h5>
+              <p class="card-text text-muted">透過自訂受眾與 AI 演算法擴大曝光，整合自然搜尋引擎優化（SEO），有效帶動高質量進站流量。</p>
+              <button type="button" class="btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#serviceModal3">
+                查看投放成效
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="modal fade" id="serviceModal1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold">專案案例：品牌形象與購物官網</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>透過語意化 HTML5 與 Bootstrap 5 進行專案切版，搭配 CDN 加速載入：</p>
+          <ul>
+            <li>全站跳出率降低 38%</li>
+            <li>行動端預約名單轉換率提升 2.4 倍</li>
+            <li>完全持有顧客名單與第一手分析數據</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+          <a href="#contact" class="btn btn-primary" data-bs-dismiss="modal">立即預約諮詢</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="serviceModal2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold">技術規格：自建數據漏斗</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>透過 GTM 代碼管理工具，在各主要互動點埋入自訂事件標籤，並即時回傳 GA4 及 Meta Pixel，讓每筆廣告花費都能計算 ROI。</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="serviceModal3" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold">投放成效：整合型流量矩陣</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>整合關鍵字廣告、多媒體聯播網與社群短影音，串接 Google Search Console，兼顧短期轉換與長期品牌 SEO 信任度。</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="faq">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">常見行銷與架站諮詢</h2>
+        <p class="text-muted">解答企業在數位轉型與官網建置上的常見疑問</p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-8">
+          <div class="accordion" id="accordionFaq">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                  企業經營社群粉絲頁就好，為什麼還需要自建網站？
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFaq">
+                <div class="accordion-body">
+                  社群平台規則與觸及率隨時可能變動，且無法精準取得底層訪客行為數據。自建網站是累積品牌信任感與自有資料庫的核心基地，才能真正掌控品牌自主權。
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                  專案開發的大致流程與時間如何規劃？
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+                <div class="accordion-body">
+                  標準專案流程包含：客戶需求評估與報價 ➔ UI/UX 頁面視覺規劃 ➔ 前端切版與後端功能串接 ➔ SEO 關鍵字與 GTM 標籤埋設 ➔ 測試並正式上線，一般單頁專案約 2-4 週內可完成。
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                  網站建置完成後，如何評估廣告與行銷效益？
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+                <div class="accordion-body">
+                  我們會在全站配置 GA4 與 Clarity 使用者行為分析工具，追蹤進站流量、停留時間、點擊熱點圖與名單表單送出率，並產出清晰的行銷成效數據報表。
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="location" class="bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">服務據點與專案預約</h2>
+        <p class="text-muted">歡迎親臨工作室交流，或直接填寫下方表單留下專案需求</p>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        <div class="col-12 col-lg-6">
+          <div class="card h-100 border-0 shadow-sm p-3">
+            <h5 class="fw-bold mb-3">顧問工作室位置</h5>
+            <div class="ratio ratio-16x9 rounded overflow-hidden">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14476.99264426544!2d120.99214736173095!3d24.789123617387435!2m3!1f0!2f0!3f0!32f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346836110f63b49f%3A0x2bf949d6d5ef0b92!2z5ZyL56uL6Zm95piO5Lqk6YCa5aSn5a245YWJ5b6p5qCh5Y2A!5e0!3m2!1szh-TW!2stw!4v1710000000000!5m2!1szh-TW!2stw" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+              </iframe>
+            </div>
+            <p class="text-muted mt-3 mb-0 small">地址：新竹市東區大學路 1001 號（鄰近竹科園區）</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6" id="contact">
+          <div class="card h-100 border-0 shadow-sm p-4">
+            <h5 class="fw-bold mb-3">線上需求評估</h5>
+            <form>
+              <div class="mb-3">
+                <label for="userName" class="form-label">姓名 / 公司稱呼</label>
+                <input type="text" class="form-control" id="userName" placeholder="例如：林經理" required>
+              </div>
+              <div class="mb-3">
+                <label for="userEmail" class="form-label">電子信箱</label>
+                <input type="email" class="form-control" id="userEmail" placeholder="name@company.com" required>
+              </div>
+              <div class="mb-3">
+                <label for="serviceSelect" class="form-label">預計諮詢方案</label>
+                <select class="form-select" id="serviceSelect">
+                  <option selected>請選擇服務項目...</option>
+                  <option value="1">自建官網前端切版開發</option>
+                  <option value="2">GTM / GA4 數據標籤埋設</option>
+                  <option value="3">SEO 關鍵字與廣告代操</option>
+                  <option value="4">客製化整合方案</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="userMessage" class="form-label">專案需求說明</label>
+                <textarea class="form-control" id="userMessage" rows="3" placeholder="請簡述您的產業類型、目前行銷痛點或預計上線時間"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">送出專案需求</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p class="mb-1">© 2026 YUIMarketing Digital Studio. All Rights Reserved.</p>
+      <small class="text-muted">基礎網頁設計課程加分作業展示</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
